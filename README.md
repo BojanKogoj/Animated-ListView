@@ -2,6 +2,8 @@
 
 This is an idea for animated ListView in Cascades for BlackBerry 10. It extends CustomListComponent and adds animation to it. 
 
-Screenshot of animation in progress:
+Currently supported animations are FADE (in) and SLIDE_LEFT. You can switch between them in the constructer.
 
-![Animation in progress screenshot](http://i.imgur.com/doBGlGpm.png)
+Screenshots of animations in progress:
+
+![Animation in progress screenshot](http://i.imgur.com/doBGlGpm.png) ![Fade in animation](http://i.imgur.com/MZAE917m.png)
