@@ -42,9 +42,7 @@ ApplicationUI::ApplicationUI() :
     // initial load
     onSystemLanguageChanged();
 
-    qmlRegisterType<ACustomListItem>("si.adev.acustomlistitem", 1, 0,
-            "ACustomListItem");
-
+    qmlRegisterType<ACustomListItem>("si.adev.acustomlistitem", 1, 0, "ACustomListItem");
     // Create scene document from main.qml asset, the parent is set
     // to ensure the document gets destroyed properly at shut down.
     QmlDocument *qml = QmlDocument::create("asset:///main.qml").parent(this);

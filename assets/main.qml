@@ -39,7 +39,6 @@ Page {
                             textStyle.fontSize: FontSize.Large
                         }
                     }
-
                 }
             }
         }
